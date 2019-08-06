@@ -6,11 +6,9 @@ SAML IDP can accept SAML 2.0 authentication requests from any SAML 2.0 Service P
 
 Health warning: This code is not meant to be used in PROD environment. If you choose to do so, please do extensive testing including security review. Even Readme is first cut. I will make more changes to this and make this more usable.
 
-The codebase is maintained on orahub﻿. 
-
 Here are the steps to download the bundle and deploy it. It does not include any container. So you clone the package and create .war file.
 
-git clone git@orahub.oraclecorp.com:ateam/samlidp.git
+git clone git@github.com:kiranthakkar/samlidp.git
 cd samlidp
 mvn clean compile war:war (Make sure you have Maven installed and configured.)
 It will create SAMLClient.war file under the target directory. Extract SAMLClient.war file and update partners.xml to add service provider partner you want to integrate with.
