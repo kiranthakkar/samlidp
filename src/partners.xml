@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SPPartners>
+	<partner id="1" providerID="https://idcs-c53f260e3d2c4d2a8b3f87caf0529066.identity.oraclecloud.com/fed">
+		<AssertionConsumerURL>https://idcs-c53f260e3d2c4d2a8b3f87caf0529066.identity.oraclecloud.com/fed/v1/sp/sso</AssertionConsumerURL>
+		<SAMLRecipient>https://idcs-c53f260e3d2c4d2a8b3f87caf0529066.identity.oraclecloud.com/fed/v1/sp/sso</SAMLRecipient>
+		<SAMLAudience>https://idcs-c53f260e3d2c4d2a8b3f87caf0529066.identity.oraclecloud.com/fed</SAMLAudience>
+		<RelayState>https://idcs-c53f260e3d2c4d2a8b3f87caf0529066.identity.oraclecloud.com/ui/v1/myconsole</RelayState>
+		<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+	</partner>
+	<partner id="2" providerID="https://auth.us-ashburn-1.oraclecloud.com/v1/saml/ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq">
+		<AssertionConsumerURL>https://auth.us-ashburn-1.oraclecloud.com/v1/saml/ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq</AssertionConsumerURL>
+		<SAMLRecipient>https://auth.us-ashburn-1.oraclecloud.com/v1/saml/ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq</SAMLRecipient>
+		<SAMLAudience>https://auth.us-ashburn-1.oraclecloud.com/v1/saml/ocid1.tenancy.oc1..aaaaaaaaa3qmjxr43tjexx75r6gwk6vjw22ermohbw2vbxyhczksgjir7xdq</SAMLAudience>
+		<RelayState>https://auth.us-ashburn-1.oraclecloud.com</RelayState>
+		<NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:persistent</NameIDFormat>
+	</partner>
+	<partner id="3" providerID="https://A0696F9081124EC2863C8D594FE817EC.mobile.ocp.oraclecloud.com:443/mobile/platform/sso/exchange-token">
+		<AssertionConsumerURL>https://A0696F9081124EC2863C8D594FE817EC.mobile.ocp.oraclecloud.com:443/saml</AssertionConsumerURL>
+		<SAMLRecipient>https://A0696F9081124EC2863C8D594FE817EC.mobile.ocp.oraclecloud.com:443/saml</SAMLRecipient>
+		<SAMLAudience>https://A0696F9081124EC2863C8D594FE817EC.mobile.ocp.oraclecloud.com:443/mobile/platform/sso/exchange-token</SAMLAudience>
+		<RelayState>https://A0696F9081124EC2863C8D594FE817EC.mobile.ocp.oraclecloud.com:443/mobile/custom/bots_samples/components</RelayState>
+		<NameIDFormat>urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress</NameIDFormat>
+	</partner>
+</SPPartners>
